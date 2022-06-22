@@ -1734,7 +1734,7 @@
     (property "Value" "TestPoint_Alt" (id 1) (at 131.445 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "cap_pads:CAPPAD_7.6x7.6_Chevron_2" (id 2) (at 127 66.675 0)
+    (property "Footprint" "cap_pads:CAPPAD_7.6x7.6_Chevron_2_shifted" (id 2) (at 127 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 127 66.675 0)
@@ -1840,7 +1840,7 @@
     (property "Value" "TestPoint_Alt" (id 1) (at 131.445 59.69 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "cap_pads:CAPPAD_7.6x7.6_Chevron_2" (id 2) (at 127 64.135 0)
+    (property "Footprint" "cap_pads:CAPPAD_7.6x7.6_Chevron_2_shifted" (id 2) (at 127 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 127 64.135 0)
@@ -2159,10 +2159,10 @@
       (reference "TP5") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2")
     )
     (path "/bc614aae-bf8a-4524-b8fb-f2986c6a385f"
-      (reference "TP6") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2")
+      (reference "TP6") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2_shifted")
     )
     (path "/b13c650d-d345-428a-ba03-fd5871ca5c98"
-      (reference "TP7") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2")
+      (reference "TP7") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2_shifted")
     )
     (path "/4e184203-7c1c-4b52-a73a-be217f4bb796"
       (reference "TP8") (unit 1) (value "TestPoint_Alt") (footprint "cap_pads:CAPPAD_7.6x7.6_Chevron_2")
