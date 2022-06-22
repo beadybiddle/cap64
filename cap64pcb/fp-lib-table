@@ -1,5 +1,4 @@
 (fp_lib_table
   (lib (name "cap_pads")(type "KiCad")(uri "H:/repos/cap64/res/cap_pads.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "H:/repos/cap64/res/logo.pretty")(options "")(descr ""))
-  (lib (name "shunt")(type "KiCad")(uri "H:/repos/cap64/res/shunt.pretty")(options "")(descr ""))
 )
