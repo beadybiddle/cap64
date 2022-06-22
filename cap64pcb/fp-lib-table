@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "IQS620A-0-DNR")(type "KiCad")(uri "H:/repos/cap64/res/IQS620A-0-DNR")(options "")(descr ""))
+  (lib (name "cap_pads")(type "KiCad")(uri "H:/repos/cap64/res/cap_pads.pretty")(options "")(descr ""))
 )
