@@ -1459,7 +1459,7 @@
   (symbol (lib_id "power:GND") (at 185.42 56.515 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4de64f1d-704e-4f11-85eb-52a828b3fd02)
-    (property "Reference" "#PWR?" (id 0) (at 185.42 62.865 0)
+    (property "Reference" "#PWR0121" (id 0) (at 185.42 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 185.42 60.325 0))
@@ -2004,7 +2004,7 @@
     (property "Reference" "D1" (id 0) (at 91.44 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "RED" (id 1) (at 96.52 57.785 0)
+    (property "Value" "INT" (id 1) (at 96.52 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 95.25 56.515 90)
@@ -2249,7 +2249,7 @@
       (reference "#PWR0120") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4de64f1d-704e-4f11-85eb-52a828b3fd02"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
     (path "/f135c53c-386c-4051-aa9a-f8f2f6913b14"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2267,7 +2267,7 @@
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/c99a01b3-5224-46b3-9237-a21f39c43bb5"
-      (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D1") (unit 1) (value "INT") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/19d8f5e6-7917-4311-ae54-a6b4c084a96c"
       (reference "J1") (unit 1) (value "SM05B_SURS_TF") (footprint "Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal")
