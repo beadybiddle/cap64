@@ -832,7 +832,7 @@
             (xy 0.06 0.4225)
           ) (width 0.08) (fill yes))
       ) (tstamp 91496ad9-ca98-43f6-9398-d1da76d8b3af))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-20_3x3mm_P0.4mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-20-1EP_3x3mm_P0.4mm_EP1.85x1.85mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1004,7 +1004,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8bd24c72-92ae-4bd5-8b6b-bbf513aff2e9)
     )
-    (fp_text user "c" (at 1.8 1.8 180) (layer "B.SilkS")
+    (fp_text user "c" (at 1.7 1.8 180) (layer "B.SilkS")
       (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
       (tstamp 1d00754f-ecd7-4591-8067-ee4e0a43007d)
     )
@@ -1581,7 +1581,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 046404a0-9b8c-42cb-85e8-a7a49f319a88)
     )
-    (fp_text value "BSS138" (at 5.199999 1.8) (layer "B.SilkS")
+    (fp_text value "BSS138" (at -1.650001 2.605723) (layer "B.SilkS")
       (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
       (tstamp db000bc0-f725-4736-8591-cbc0dfbf7bf2)
     )
@@ -1806,7 +1806,7 @@
       (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
       (tstamp f0c2e4d7-fbbf-4816-97d7-b7b2a46a844c)
     )
-    (fp_text value "SM04B_SURS_TF" (at -8.9 1.2) (layer "B.SilkS")
+    (fp_text value "SM04B_SURS_TF" (at -8.4 3.3) (layer "B.Fab")
       (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
       (tstamp 8071138e-2bd0-426b-8930-1284f2233723)
     )
@@ -1853,11 +1853,6 @@
       (net 2 "GND") (pinfunction "MP") (pintype "power_in") (tstamp 3d830ab4-6da5-404c-9a68-b2843264ea1d))
     (pad "MP" smd roundrect (at -2.5 -0.8 180) (size 1.2 1.7) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.208333)
       (net 2 "GND") (pinfunction "MP") (pintype "power_in") (tstamp b1ce184f-04e9-416f-8748-3af1cc1d4a9d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (gr_arc (start 101.1 39.9) (mid 101.524264 40.075736) (end 101.7 40.5) (layer "B.SilkS") (width 0.2) (tstamp 0f05b916-16d7-4964-8739-179c9ab2e5bb))
@@ -1882,28 +1877,37 @@
   (gr_text "vcc" (at 110 46.8 90) (layer "B.SilkS") (tstamp 28c5b2e3-ad3d-453a-bd4d-36bf14e86e68)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
+  (gr_text "0x5" (at 72.9 47.4) (layer "B.SilkS") (tstamp 50d2e643-d251-40d5-a3e9-7b446448ecba)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
+  )
   (gr_text "sda" (at 108.6 46.8 90) (layer "B.SilkS") (tstamp 66880724-b371-48d0-a49a-44babee1dbdb)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "biddle" (at 54.4 46) (layer "B.SilkS") (tstamp 6f42b7e3-3a3c-4bc0-901a-9101873762cd)
+  (gr_text "biddle" (at 52.6 46) (layer "B.SilkS") (tstamp 6f42b7e3-3a3c-4bc0-901a-9101873762cd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "scl" (at 107.2 46.6 90) (layer "B.SilkS") (tstamp 87bb2047-4d7e-4299-ae60-2070d355883d)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "64" (at 56.4 43.7) (layer "B.SilkS") (tstamp ea0010ea-9bdc-4bdb-b60d-e35099ae79fc)
+  (gr_text "SM04B-\nSURS-TF" (at 121.6 43.4) (layer "B.SilkS") (tstamp ad47269f-f398-4c4b-a85e-34d1f91e4f6a)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify left mirror))
+  )
+  (gr_text "64" (at 54.6 43.7) (layer "B.SilkS") (tstamp ea0010ea-9bdc-4bdb-b60d-e35099ae79fc)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "[abcd]" (at 117.5 44.8) (layer "B.SilkS") (tstamp f4c857c9-4d89-447a-8a69-cf9da90c7188)
+  (gr_text "abcd" (at 68.4 47.4) (layer "B.SilkS") (tstamp f4c857c9-4d89-447a-8a69-cf9da90c7188)
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "cap" (at 59.9 43.7) (layer "B.Mask") (tstamp 57031c67-5381-436f-87fb-abcea6a67a15)
+  (gr_text "cap" (at 58.1 43.7) (layer "B.Mask") (tstamp 57031c67-5381-436f-87fb-abcea6a67a15)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "0x5" (at 122 44.8) (layer "B.Mask") (tstamp 9e506fbd-ce5d-47f1-a521-e7d9db5ecfb6)
+  (gr_text "[" (at 70.9 47.3) (layer "B.Mask") (tstamp 9e506fbd-ce5d-47f1-a521-e7d9db5ecfb6)
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "beady" (at 61.2 46) (layer "B.Mask") (tstamp cb072ea9-fafb-47b8-8232-8a2061a729f2)
+  (gr_text "]" (at 65.9 47.3) (layer "B.Mask") (tstamp a8b0c6ad-c126-4ac4-bb8f-96b00030c899)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "beady" (at 59.4 46) (layer "B.Mask") (tstamp cb072ea9-fafb-47b8-8232-8a2061a729f2)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
 
@@ -3798,6 +3802,26 @@
         (xy 77.490097 43.5795)
         (xy 77.767799 43.5795)
       )
+    )
+  )
+  (group "" (id 276355c2-5f92-4a10-aa56-8aeebc711e2d)
+    (members
+      50d2e643-d251-40d5-a3e9-7b446448ecba
+      9e506fbd-ce5d-47f1-a521-e7d9db5ecfb6
+      a8b0c6ad-c126-4ac4-bb8f-96b00030c899
+      f4c857c9-4d89-447a-8a69-cf9da90c7188
+    )
+  )
+  (group "" (id 479919e5-5469-4d3f-aad5-0b54dff5bcad)
+    (members
+      57031c67-5381-436f-87fb-abcea6a67a15
+      ea0010ea-9bdc-4bdb-b60d-e35099ae79fc
+    )
+  )
+  (group "" (id 78375fc6-14c5-4e2f-be5c-8daab93573cc)
+    (members
+      6f42b7e3-3a3c-4bc0-901a-9101873762cd
+      cb072ea9-fafb-47b8-8232-8a2061a729f2
     )
   )
 )

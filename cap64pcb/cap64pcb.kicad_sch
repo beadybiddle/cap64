@@ -1265,7 +1265,7 @@
     (pin "2" (uuid 88210f6d-926a-48de-80a0-99ab8fea0179))
     (pin "3" (uuid c0a4d31d-7265-4d8d-866a-666426b790ca))
     (pin "4" (uuid bd857530-2bea-44e0-9d5c-c8cb302f2c94))
-    (pin "MP" (uuid 3eb98b98-72f4-49f5-bf9e-e431c49b6661))
+    (pin "MP" (uuid 4d760889-579c-4d49-bce5-c42ba371083a))
   )
 
   (symbol (lib_id "Regulator_Linear:SPX3819M5-L-3-3") (at 35.56 43.815 0) (unit 1)
